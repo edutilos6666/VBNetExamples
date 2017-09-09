@@ -1,9 +1,45 @@
 ﻿Module Module1
 
     Sub Main()
-        TestPersonDAO()
+        TestComplexNumber()
     End Sub
 
+
+    Private Sub TestComplexNumber()
+        Dim c1, c2 As ComplexNumber
+        c1 = New ComplexNumber(3, 3)
+        c2 = New ComplexNumber(2, 2)
+        Console.WriteLine(String.Format("c1 = {0}", c1))
+        Console.WriteLine(String.Format("c2 = {0}", c2))
+        Dim cAdd = c1.Add(c2)
+        Dim cSubtract = c1.Subtract(c2)
+        Dim cMultiply = c1.Multiply(c2)
+        Dim cMultiplyWith2 = c1.Multiply(2)
+        Dim cDivide = c1.Divide(c2)
+        Dim cDivideWith2 = c1.Divide(2)
+        Console.WriteLine(String.Format("cAdd = {0}", cAdd))
+        Console.WriteLine(String.Format("cSubtract = {0}", cSubtract))
+        Console.WriteLine(String.Format("cMultiply = {0}", cMultiply))
+        Console.WriteLine(String.Format("cDivide = {0}", cDivide))
+        Console.WriteLine(String.Format("cMultiplyWith2 = {0}", cMultiplyWith2))
+        Console.WriteLine(String.Format("cDivideWith2 = {0}", cDivideWith2))
+    End Sub
+
+    Private Sub TestSimpleMath()
+        Dim n1, n2 As Double
+        n1 = 10D
+        n2 = 3D
+        Dim resAdd = SimpleMath.Add(n1, n2)
+        Dim resSubtract = SimpleMath.Subtract(n1, n2)
+        Dim resMultiply = SimpleMath.Multiply(n1, n2)
+        Dim resDivide = SimpleMath.Divide(n1, n2)
+        Dim resModulo = SimpleMath.Modulo(n1, n2)
+        Console.WriteLine(String.Format("{0} + {1} = {2}", n1, n2, resAdd))
+        Console.WriteLine(String.Format("{0} - {1} = {2}", n1, n2, resSubtract))
+        Console.WriteLine(String.Format("{0} * {1} = {2}", n1, n2, resMultiply))
+        Console.WriteLine(String.Format("{0} / {1} = {2}", n1, n2, resDivide))
+        Console.WriteLine(String.Format("{0} mod {1} = {2}", n1, n2, resModulo))
+    End Sub
 
 
     'actually PersonDAOImpl class , which implements PersonDAO interface
