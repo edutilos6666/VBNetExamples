@@ -1,9 +1,62 @@
 ﻿Module Module1
 
     Sub Main()
-        TestLoopModule()
+        TestFileHandlingModule()
     End Sub
 
+
+    Private Sub TestFileHandlingModule()
+        'FileHandlingModule.Example1()
+        'FileHandlingModule.Example2()
+        'FileHandlingModule.Example3()
+        FileHandlingModule.Example4()
+    End Sub
+
+
+    Private Sub TestExceptionModule()
+        ExceptionModule.Example1()
+    End Sub
+
+    Private Sub TestOOPModule()
+        OOPModule.Example1()
+    End Sub
+
+    Private Sub TestFunctionAndSubModule()
+        'FunctionAndSubModule.Example1()
+        FunctionAndSubModule.Example2()
+    End Sub
+
+
+
+    Private Sub TestCollectionsModule()
+        'CollectionsModule.Example1()
+        'CollectionsModule.Example2()
+        'CollectionsModule.Example3()
+        'CollectionsModule.Example4()
+        'CollectionsModule.Example5()
+        CollectionsModule.Example6()
+    End Sub
+
+    Private Sub TestArrayModule()
+        'ArrayModule.Example1()
+        'ArrayModule.Example2()
+        'ArrayModule.Example3()
+        'ArrayModule.Example4()
+        ArrayModule.Example5()
+    End Sub
+
+
+    Private Sub TestDateTimeModule()
+        'DateTimeModule.Example1()
+        'DateTimeModule.Example2()
+        DateTimeModule.Example3()
+    End Sub
+
+
+    Private Sub TestStringModule()
+        'StringModule.Example1()
+        StringModule.Example2()
+    End Sub
 
     Private Sub TestLoopModule()
         'LoopModule.Example1()

@@ -68,10 +68,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayModule.vb" />
+    <Compile Include="CollectionsModule.vb" />
     <Compile Include="ComplexNumber.vb" />
+    <Compile Include="DateTimeModule.vb" />
     <Compile Include="DecisionMakingModule.vb" />
+    <Compile Include="ExceptionModule.vb" />
+    <Compile Include="FileHandlingModule.vb" />
+    <Compile Include="FunctionAndSubModule.vb" />
     <Compile Include="LoopModule.vb" />
     <Compile Include="ModuleExample.vb" />
+    <Compile Include="OOPModule.vb" />
     <Compile Include="OperatorsModule.vb" />
     <Compile Include="Person.vb" />
     <Compile Include="Module1.vb" />
@@ -91,6 +98,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SimpleMath.vb" />
+    <Compile Include="StringModule.vb" />
     <Compile Include="UserInputExample.vb" />
   </ItemGroup>
   <ItemGroup>
