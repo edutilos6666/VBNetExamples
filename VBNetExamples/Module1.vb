@@ -1,9 +1,48 @@
 ﻿Module Module1
 
     Sub Main()
-        TestComplexNumber()
+        TestLoopModule()
     End Sub
 
+
+    Private Sub TestLoopModule()
+        'LoopModule.Example1()
+        'LoopModule.Example2()
+        'LoopModule.Example3()
+        'LoopModule.Example4()
+        'LoopModule.Example5()
+        'LoopModule.Example6()
+        LoopModule.Example7()
+    End Sub
+
+
+    Private Sub TestDecisionMakingModule()
+        'DecisionMakingModule.Example1()
+        DecisionMakingModule.Example2()
+    End Sub
+
+    Private Sub TestOperatorsModule()
+        'OperatorsModule.ExampleArithmeticOps()
+        'OperatorsModule.ExampleComparisonOps()
+        'OperatorsModule.ExampleLogicalOps()
+        OperatorsModule.ExampleMiscellaneousOps()
+    End Sub
+
+
+    Private Sub TestModuleExample()
+        'ModuleExample.Example1()
+        'ModuleExample.ExampleDelegate()
+        'ModuleExample.ExampleWorker()
+        'ModuleExample.ExampleProgrammer()
+        'ModuleExample.ExampleCustomFile()
+        ModuleExample.ExampleOperatorOverloading()
+    End Sub
+
+    Private Sub TestUserInputExample()
+        'UserInputExample.Example1()
+        'UserInputExample.Example2()
+        UserInputExample.Example3()
+    End Sub
 
     Private Sub TestComplexNumber()
         Dim c1, c2 As ComplexNumber

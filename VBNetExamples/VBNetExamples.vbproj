@@ -69,6 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComplexNumber.vb" />
+    <Compile Include="DecisionMakingModule.vb" />
+    <Compile Include="LoopModule.vb" />
+    <Compile Include="ModuleExample.vb" />
+    <Compile Include="OperatorsModule.vb" />
     <Compile Include="Person.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -87,6 +91,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SimpleMath.vb" />
+    <Compile Include="UserInputExample.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
